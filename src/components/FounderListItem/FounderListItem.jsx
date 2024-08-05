@@ -1,4 +1,4 @@
-const FounderListItem = ({founder: {title, name, credential}}) => {
+const FounderListItem = ({title, name, credential}) => {
   return (
       <li>
         <h3>Hello, I'm {name}, the {title}!</h3>
