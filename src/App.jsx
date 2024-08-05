@@ -35,7 +35,7 @@ const App = () => {
       <h2>Our Founders</h2>
       <ul>
         {founders.map((founder)=> (
-          <FounderListItem key={founder.id} {...founder} />
+          <FounderListItem key={founder.id} founder={founder} />
         ))}
       </ul>
     </>
